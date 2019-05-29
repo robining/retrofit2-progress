@@ -1,4 +1,20 @@
 # retrofit2-progress
+####依赖
+```Gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
+```
+
+```Gradle
+dependencies {
+	  implementation 'com.github.robining:retrofit2-progress:-SNAPSHOT'
+}
+```
+
 #### 第一步：
 添加ProgressCallFactory和ProgressCallAdapterFactory
 ```Java
