@@ -1,5 +1,5 @@
 # retrofit2-progress
-####依赖
+#### 在项目中添加依赖
 ```Gradle
 allprojects {
 		repositories {
