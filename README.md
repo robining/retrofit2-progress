@@ -11,7 +11,7 @@ allprojects {
 
 ```Gradle
 dependencies {
-	  implementation 'com.github.robining:retrofit2-progress:-SNAPSHOT'
+	  implementation 'com.github.robining:retrofit2-progress:v0.1-SNAPSHOT'
 }
 ```
 
