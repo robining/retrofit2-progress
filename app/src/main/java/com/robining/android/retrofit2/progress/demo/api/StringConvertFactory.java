@@ -15,6 +15,7 @@ public class StringConvertFactory extends Converter.Factory {
         return new Converter<ResponseBody, String>() {
             @Override
             public String convert(ResponseBody value) throws IOException {
+                //TODO 如果是下载文件并处于主线程会无响应
                 return value.source().readString(Charset.forName("UTF-8"));
             }
         };

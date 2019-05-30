@@ -12,6 +12,9 @@ public class ProgressCallFactory implements Call.Factory {
         this.realFactory = realFactory;
     }
 
+    public ProgressCallFactory(OkHttpClient client) {
+        this.realFactory = client;
+    }
 
     @Override
     public Call newCall(final Request oldRequest) {
